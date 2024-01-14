@@ -10,7 +10,7 @@ export default function api(): ApiInterface {
 
 export interface Participant {
     name: string,
-    roles: Array<string>,
+    role: string,
 }
 
 export interface Session {

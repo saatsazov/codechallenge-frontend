@@ -4,8 +4,7 @@
         <ul>
             <li v-for="p in $props.participants">
                 {{ p.name }}
-                roles:
-                <span v-for="r in p.roles">{{ r }}</span>
+                role: {{ p.role }}
             </li>
         </ul>
     </div>
