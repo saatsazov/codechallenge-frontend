@@ -1,5 +1,4 @@
 <template>
-    <Session name="hello" :session_start="new Date()" :session_end="null" :participants="[]"></Session>
     <div>
         <Session v-for="s in schedule.items" v-bind="s" />
     </div>
