@@ -5,7 +5,13 @@ const fakeInstance = new FakeApi();
 const remoteInstance = new RemoteApi('http://127.0.0.1:8000/api');
 
 export default function api(): ApiInterface {
-    return remoteInstance
+    if (import.meta.env.DEV) {
+        console.log("use remote api")
+        return remoteInstance
+    }
+
+    console.log("use fake api")
+    return fakeInstance
 }
 
 export interface Participant {

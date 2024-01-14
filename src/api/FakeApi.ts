@@ -1,8 +1,12 @@
 import type { ApiInterface, Schedule } from "./Api";
 
+import { mapSessions } from './RemoteApi'
+
+import fakeResponse from './fakeresponse.json';
+
 export default class FakeApi implements ApiInterface {
     async getSchedule(): Promise<Schedule> {
-        // throw new Error("Method not implemented.");
-        return Promise.resolve({ items: [] })
+        const items = mapSessions(fakeResponse.items)
+        return Promise.resolve({ items: items })
     }
 }
