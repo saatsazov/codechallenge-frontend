@@ -7,13 +7,13 @@ export interface Participant {
 
 export interface Session {
     name: string,
-    time_start: Date,
-    time_end?: Date,
+    session_start: Date,
+    session_end: Date | null,
     participants: Array<Participant>,
 }
 
 export interface Schedule {
-    Items: Array<Session>
+    items: Array<Session>
 }
 
 export interface ApiInterface {
