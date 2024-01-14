@@ -10,7 +10,7 @@
             "session_subtype": "",
             "description": "Work together to launch the shuttle to the International Space Station, to complete experiments that approximate those conducted in space and to return the crew to Earth. Problem solving and communication is key as problems, or anomalies, arise. In the Space Station you are busy at work completing several experiments in the areas of chemistry, physics and biology.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168715,
                     "sessionid": "0183184a13d827265e984af5d1b97037",
@@ -39,7 +39,7 @@
             "session_subtype": "",
             "description": "Part of astronaut training is learning how to sleep, eat and work in space. This session answers commonly asked questions about how astronauts perform everyday activities in microgravity.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "05622bf5eb7f720b1540b90c56f82729",
@@ -68,7 +68,7 @@
             "session_subtype": "",
             "description": "Find out how it would feel to walk on the moon, where there is only one sixth of the Earth&rsquo;s gravity, in this simulator inspired by the Apollo program.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2402291,
                     "sessionid": "0a6278a3939836f5f526cb2ece340a86",
@@ -113,7 +113,7 @@
             "session_subtype": "Classroom",
             "description": "This session utilizes four experiments to teach the you about the scientific method and the wide variety of experiments conducted on the International Space Station. Each group of four completes one experiment.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "143a124eca93d53f277fe2f74fb95e80",
@@ -125,7 +125,7 @@
             "session_subtype": "",
             "description": "This session presents you to the many real world applications of robotics technology with a slide show and Lego examples.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168719,
                     "sessionid": "143a124eca93d53f277fe2f74fb95e80",
@@ -186,7 +186,7 @@
             "session_subtype": "",
             "description": "Discover how rockets function by creating and launching your own Estes rocket.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "182251ce7ea64009f7151dc211bb4560",
@@ -215,7 +215,7 @@
             "session_subtype": "",
             "description": "This session uses a Lego model, the Mars Car, to teach you the steps of the design process and basic building strategies. You have an opportunity to experiment with different gear and pulley combinations before you race your creations at the end of the session.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168719,
                     "sessionid": "1a90113c1ad29547dc3e7ce4726076f9",
@@ -244,24 +244,7 @@
             "session_subtype": "",
             "description": "",
             "active": true,
-            "participants": [
-                {
-                    "userid": 2168713,
-                    "sessionid": "22db6b4769ed316d92f0b20d8e9ab6d3",
-                    "updated": "2017-09-15T13:01:09.000000Z",
-                    "usertype": "artist",
-                    "user": {
-                        "id": 2168713,
-                        "username": "sally_ride.1u3o2d5k",
-                        "joined": "2015-08-06T13:55:38.000000Z",
-                        "name": "Sally Ride",
-                        "email": "racheldrudi+sally@gmail.com",
-                        "url": "",
-                        "about": "Sally Kristen Ride was an American physicist and astronaut. Born in Los Angeles, she joined NASA in 1978 and became the first American woman in space in 1983.",
-                        "avatar": "\/\/avatars.schd.ws\/2\/DF\/2168713\/avatar.jpg"
-                    }
-                }
-            ]
+            "speakers": []
         },
         {
             "id": "2e8292a1c2886958293be6ab48687519",
@@ -273,7 +256,7 @@
             "session_subtype": "",
             "description": "Investigate the spatial disorientation a pilot feels when aircraft malfunction in the Barney Chair, a training device used in pilot training programs worldwide. Concepts include aileron malfunction, tail rotor failure and their physiological effects on body systems.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "3299dff625e302161ab2e678f9803ded",
@@ -285,7 +268,7 @@
             "session_subtype": "",
             "description": "Experience a one and half hour mission. Each member of the team will be trained in a specialized role in Mission Control or the Orbiter and Space Station simulators.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168715,
                     "sessionid": "3299dff625e302161ab2e678f9803ded",
@@ -314,7 +297,7 @@
             "session_subtype": "",
             "description": "Test the soil, mineral makeup, landscape, acidity and radioactivity of four areas on Mars. Then decide which area would be the most suitable for human inhabitation.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 3531084,
                     "sessionid": "4f02f11d4889cdde63c12890d48da26f",
@@ -343,7 +326,7 @@
             "session_subtype": "",
             "description": "This is the last practice before the mission commences.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168715,
                     "sessionid": "5395d2021bdde65031cb18559ecc1ffd",
@@ -372,7 +355,7 @@
             "session_subtype": "",
             "description": "Here trainees learn the steps that NASA took to test the many manuvers and procedures that would eventually take us to the moon.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "676e04e92592ef515ce496dd1d7b6f45",
@@ -384,7 +367,7 @@
             "session_subtype": "",
             "description": "Expore the new Space and Rocket Center shuttle exhibit and discuss the highlights of twenty years of shuttle flights.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "6aa7e929889f8c87f483d5a121c0eff3",
@@ -396,7 +379,7 @@
             "session_subtype": "",
             "description": "Design a squadron patch that describes your group.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168717,
                     "sessionid": "6aa7e929889f8c87f483d5a121c0eff3",
@@ -425,7 +408,7 @@
             "session_subtype": "Classroom",
             "description": "This highly interactive and energetic presentation about the amazing things space has to offer. These simple demonstrations illustrate principles as they relate to space exploration.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "7c536d6765a2aab6294dbb71d4374ba9",
@@ -437,7 +420,7 @@
             "session_subtype": "",
             "description": "Aircraft may not always work, and pilots should be prepared for any situation. Like pilots and astronauts, learn the basics of land survival.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168717,
                     "sessionid": "7c536d6765a2aab6294dbb71d4374ba9",
@@ -466,7 +449,7 @@
             "session_subtype": "",
             "description": "The mission debrief is a time to discuss and celebrate the completed mission and to share the comments made by Simulations staff.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168715,
                     "sessionid": "836498346d0e7495d309b78008bb6dff",
@@ -495,7 +478,7 @@
             "session_subtype": "",
             "description": "This simulator simulates the five degrees of freedom, forward, backward, side-to-side, roll, pitch and yaw. Performing these movements simulate what it would be like to work in the frictionless environment of space during an EVA. They also demonstrate Newton&rsquo;s Third Law of Motion.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "872299026b91bca89fd6ace3987940ac",
@@ -524,7 +507,7 @@
             "session_subtype": "",
             "description": "This simulator is designed to prepare you for the forces of acceleration experienced by astronauts during launch, the times the force of Earth&rsquo;s gravity.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "940db9f9690c8edb26bbe75c1361d3bd",
@@ -553,7 +536,7 @@
             "session_subtype": "Classroom",
             "description": "Discuss why scientists chose to explore space, and learn about common products developed with space technology.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "95248a611c862c86e0af59a155bbc6d7",
@@ -582,23 +565,7 @@
             "session_subtype": "",
             "description": "Create banners to represent the attributes of your <a href=\"https:\/\/schedspacecamp2015.sched.com\/editor\/\\\\\\\\&quot;https:\/en.wikipedia.org\/wiki\/Robotics\\\\\\\\&quot;\"\" target=\"\"\\\\\\\\&quot;_self\\\\\\\\&quot;\"\">robotics<\/a> group.\"",
             "active": true,
-            "participants": [
-                {
-                    "userid": 2168713,
-                    "sessionid": "a060d9bc4b5afd75a0e1973d94513474",
-                    "updated": "2017-09-15T13:01:09.000000Z",
-                    "usertype": "volunteer",
-                    "user": {
-                        "id": 2168713,
-                        "username": "sally_ride.1u3o2d5k",
-                        "joined": "2015-08-06T13:55:38.000000Z",
-                        "name": "Sally Ride",
-                        "email": "racheldrudi+sally@gmail.com",
-                        "url": "",
-                        "about": "Sally Kristen Ride was an American physicist and astronaut. Born in Los Angeles, she joined NASA in 1978 and became the first American woman in space in 1983.",
-                        "avatar": "\/\/avatars.schd.ws\/2\/DF\/2168713\/avatar.jpg"
-                    }
-                },
+            "speakers": [
                 {
                     "userid": 2168719,
                     "sessionid": "a060d9bc4b5afd75a0e1973d94513474",
@@ -659,7 +626,7 @@
             "session_subtype": "",
             "description": "Take the role of a shuttle commander during launch in this computer simulation.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "a9675d2149c850639bbd05694026ab23",
@@ -688,7 +655,7 @@
             "session_subtype": "",
             "description": "This motion-based simulation features a spacewalk outside of the International Space Station.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "b22c429c6cf7b232c2eff63c2c489c20",
@@ -749,7 +716,7 @@
             "session_subtype": "",
             "description": "This session chronicals some of the most exciting moments in the space race. Trainees find out how NASA recoved from the tragic Apollo 1 fire, how engineers designed the vehicles that transported men to the moon and what astronauts and scientists discovered from these trips.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "c5f781e5c037094146c82ed140fbe1f2",
@@ -761,7 +728,7 @@
             "session_subtype": "",
             "description": "This <strong>motion-based simulation<\/strong> features a <em>spacewalk outside<\/em> of the <a href=\\\\\\\"https:\/\/www.nasa.gov\/mission_pages\/station\/main\/\\\\\\\\\"\" target=\\\\\\\\\"\"_blank\\\\\\\\\"\">International Space Station<\/a>.\"",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "c5f781e5c037094146c82ed140fbe1f2",
@@ -822,7 +789,7 @@
             "session_subtype": "",
             "description": "Design you own modular space station that meets particular engineering objectives in this computer simulation that utilizes the parts of the International Space Station.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "e2f450fa28293fb7d88144879e62b97d",
@@ -834,7 +801,7 @@
             "session_subtype": "",
             "description": "Practice take-off, landing and basic maneuvers in four computer simulations that allow the you to see the principles of flight in action.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168717,
                     "sessionid": "e2f450fa28293fb7d88144879e62b97d",
@@ -863,7 +830,7 @@
             "session_subtype": "",
             "description": "In this session you learn to use Robolab, a powerful programming language, to command robotic creations.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168719,
                     "sessionid": "e5eebd6970ee66291d86412ec3d6ba7b",
@@ -892,7 +859,7 @@
             "session_subtype": "",
             "description": "This exciting simulator launches the you 140 feet in 2.5 seconds allowing you to feel four times the force of Earth&rsquo;s gravity and 2-3 seconds of freefall.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168714,
                     "sessionid": "e8178cf4d9552e63920e453ee2d4278e",
@@ -921,7 +888,7 @@
             "session_subtype": "",
             "description": "Journey to Space uses visually stunning imagery and commentary from leading space experts to review NASA's recent adventures and illustrate its upcoming challenges&mdash;exploring deep space and eventually sending a manned craft to Mars. Through brilliant narration by film and television icon Sir Patrick Stewart and extensive interviews with NASA astronauts Chris Ferguson and Serena Aunon, the film captures the spirit of human exploration and depicts how NASA has transitioned from the end of the space shuttle era to a much more ambitious future that will forever change how we live and operate in space. Meet the new machines and craft that will help NASA write this new chapter in space exploration. Take a look back at the space shuttle program and its 135 missions flown by 355 astronauts. Learn how the shuttle program's last major project&mdash;the launch and assembly of the International Space Station&mdash;will now help to reveal the challenges that may face our deep space explorers on their way toward new frontiers.",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168722,
                     "sessionid": "e979adf948f46fd8909c24f4959ef44f",
@@ -950,7 +917,7 @@
             "session_subtype": "",
             "description": "Astronauts train underwater because neutral buoyancy is the closest we can come on earth to creating a weightless environment in which astronauts can train. The activities are designed to create some of those same sensations as well as opportunities for teams to work together and practice team-building skills.",
             "active": true,
-            "participants": []
+            "speakers": []
         },
         {
             "id": "f735a43e6933e41901887035236e38f3",
@@ -962,7 +929,7 @@
             "session_subtype": "",
             "description": "Create banners to represent the attributes of your <a href=\"https:\/\/en.wikipedia.org\/wiki\/Robotics\"\" target=\"\"_self\"\">robotics<\/a> group.\"",
             "active": true,
-            "participants": [
+            "speakers": [
                 {
                     "userid": 2168719,
                     "sessionid": "f735a43e6933e41901887035236e38f3",
@@ -1007,7 +974,7 @@
             "session_subtype": "",
             "description": "Astronauts train underwater because neutral buoyancy is the closest we can come on earth to creating a weightless environment in which astronauts can train. The activities are designed to create some of those same sensations as well as opportunities for teams to work together and practice team-building skills.",
             "active": true,
-            "participants": []
+            "speakers": []
         }
     ]
 }
