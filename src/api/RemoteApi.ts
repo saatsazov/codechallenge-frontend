@@ -1,10 +1,49 @@
 import type { ApiInterface, Schedule, Session } from "./Api";
 
+interface User {
+    id: number;
+    username: string;
+    joined: string;
+    name: string;
+    email: string;
+    url: string;
+    about: string;
+    avatar: string;
+}
+
+interface Participant {
+    userid: number;
+    sessionid: string;
+    updated: string;
+    usertype: string;
+    user: User;
+}
 interface Response {
     name: string
     session_start: string,
     session_end: string | null,
+    participants: Array<Participant>
 }
+
+export function mapSessions(response: Array<any>): Array<Session> {
+    const data: Array<Response> = response
+
+    // todo: for now cast here. Later some mapper needed. Single place to control entities
+    // todo: check date parsing. Not sure it's time-zone correct 
+
+    const items: Array<Session> = data.map(i => ({
+        name: i.name,
+        session_start: new Date(i.session_start),
+        session_end: i.session_end == null ? null : new Date(i.session_end),
+        participants: i.participants.map(p => ({
+            name: p.user.name,
+            role: p.usertype,
+        }))
+    }))
+
+    return items
+}
+
 
 export default class RemoteApi implements ApiInterface {
     constructor(
@@ -16,26 +55,8 @@ export default class RemoteApi implements ApiInterface {
         const response = await fetch(this.baseUrl + '/schedule')
 
         const data: Array<Response> = (await response.json()).items
-        console.log(data)
-        /*
-name	"Mission"
-session_key	"57"
-session_start	"2019-01-25T15:00:00.000000Z"
-session_end	"2019-01-25T16:00:00.000000Z"
-session_type	"Physical Training [BRONZE]"
-session_subtype	""
-         */
 
-
-        // todo: for now cast here. Later some mapper needed. Single place to control entities
-        // todo: check date parsing. Not sure it's time-zone correct 
-
-        const items: Array<Session> = data.map(i => ({
-            name: i.name,
-            session_start: new Date(i.session_start),
-            session_end: i.session_end == null ? null : new Date(i.session_end),
-            participants: [],
-        }))
+        const items = mapSessions(data)
 
         return Promise.resolve({ items: items })
     }
