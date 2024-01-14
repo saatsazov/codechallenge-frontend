@@ -1,4 +1,12 @@
 import FakeApi from "./FakeApi";
+import RemoteApi from "./RemoteApi";
+
+const fakeInstance = new FakeApi();
+const remoteInstance = new RemoteApi('http://127.0.0.1:8000/api');
+
+export default function api(): ApiInterface {
+    return remoteInstance
+}
 
 export interface Participant {
     name: string,
@@ -18,10 +26,4 @@ export interface Schedule {
 
 export interface ApiInterface {
     getSchedule(): Promise<Schedule>
-}
-
-const fakeInstance = new FakeApi();
-
-export default function api(): ApiInterface {
-    return fakeInstance
 }
