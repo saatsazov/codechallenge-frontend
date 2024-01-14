@@ -22,7 +22,7 @@ interface Response {
     name: string
     session_start: string,
     session_end: string | null,
-    participants: Array<Participant>
+    speakers: Array<Participant>
 }
 
 export function mapSessions(response: Array<any>): Array<Session> {
@@ -35,7 +35,7 @@ export function mapSessions(response: Array<any>): Array<Session> {
         name: i.name,
         session_start: new Date(i.session_start),
         session_end: i.session_end == null ? null : new Date(i.session_end),
-        participants: i.participants.map(p => ({
+        participants: i.speakers.map(p => ({
             name: p.user.name,
             role: p.usertype,
         }))
